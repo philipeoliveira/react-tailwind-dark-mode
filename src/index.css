@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+   a {
+      @apply underline hover:no-underline;
+   }
+}
+
+@layer components {
+   .btn-light {
+      @apply bg-slate-300 text-slate-900 hover:ring-2 ring-sky-500;
+   }
+   .btn-dark {
+      @apply bg-slate-900 text-slate-300 hover:ring-2 ring-sky-500;
+   }
+}
+
+@layer utilities {
+   .light-bg {
+      @apply bg-slate-200;
+   }
+   .light-text {
+      @apply text-slate-950;
+   }
+   .dark-bg {
+      @apply bg-slate-950;
+   }
+   .dark-text {
+      @apply text-slate-200;
+   }
+}
