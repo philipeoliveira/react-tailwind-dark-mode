@@ -4,30 +4,30 @@
 
 @layer base {
    a {
-      @apply underline hover:no-underline;
+      @apply text-my-gray-950 dark:text-white hover:underline;
    }
 }
 
 @layer components {
    .btn-light {
-      @apply bg-slate-300 text-slate-900 hover:ring-2 ring-sky-500;
+      @apply bg-my-blue-400 text-white hover:bg-my-blue-600;
    }
    .btn-dark {
-      @apply bg-slate-900 text-slate-300 hover:ring-2 ring-sky-500;
+      @apply bg-white text-my-gray-950 hover:bg-my-gray-300;
    }
 }
 
 @layer utilities {
    .light-bg {
-      @apply bg-slate-200;
+      @apply bg-white;
    }
    .light-text {
-      @apply text-slate-950;
+      @apply text-my-gray-950;
    }
    .dark-bg {
-      @apply bg-slate-950;
+      @apply bg-my-gray-950;
    }
    .dark-text {
-      @apply text-slate-200;
+      @apply text-my-gray-300;
    }
 }

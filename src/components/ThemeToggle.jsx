@@ -30,8 +30,8 @@ export function ThemeToggle() {
    }, []);
 
    return (
-      <form className='flex flex-col gap-8'>
-         <fieldset>
+      <form className='flex flex-col gap-10'>
+         <fieldset className='text-center'>
             <legend className='text-xl font-bold mb-4'>Checkbox</legend>
             <label className='flex gap-2'>
                <input
@@ -44,11 +44,11 @@ export function ThemeToggle() {
             </label>
          </fieldset>
 
-         <fieldset>
+         <fieldset className='text-center'>
             <legend className='text-xl font-bold mb-4'>Button</legend>
             <button
                type='button'
-               className='btn-light dark:btn-dark rounded p-3'
+               className='btn-light dark:btn-dark rounded-[2rem] py-3 px-5'
                onClick={toggleButton}
             >
                {theme === 'light' && 'Trocar para Dark'}
