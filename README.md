@@ -1,4 +1,4 @@
-# Temas Light e Dark
+# Checkbox e Button Dark Mode
 
 Código em React com Tailwind CSS que cria um checkbox e/ou botão para modificar o tema da página. Ao modificar para o tema Dark, cores escuras passam a compor o layout; quando escolhido o tema Light, o layout é composto por cores claras. A aplicação é iniciada com o tema Light.
 
